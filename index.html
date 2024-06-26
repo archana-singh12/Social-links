@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social media links profile</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #141414;
+      font-family: "Inter", sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .box {
+      background-color: #1F1F1F;
+      padding: 25px;
+      width: 20%;
+      margin: auto;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60px;
+      height: 60px;
+      border-radius: 100px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #fff;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 10px;
+      line-height: 1.2em;
+    }
+
+    .loc {
+      color: #C5F82A;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      line-height: 1.5em;
+    }
+
+    .loc1 {
+      color: #fff;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      line-height: 1.5em;
+    }
+
+    a {
+      background-color: #333;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      padding: 10px 50px;
+      text-align: center;
+      border: 0px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 12px;
+    }
+
+
+    a:hover {
+      background-color: #C5F82A;
+      color: #333
+    }
+
+    @media only screen and (max-width: 1200px) {
+
+      .box {
+        background-color: #1F1F1F;
+        padding: 25px;
+        width: 30%;
+        margin: auto;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        line-height: 1.2em;
+      }
+
+      .loc {
+        color: #C5F82A;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        line-height: 1.5em;
+      }
+
+      .loc1 {
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        line-height: 1.5em;
+      }
+
+      a {
+        background-color: #333;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 10px 50px;
+        text-align: center;
+        border: 0px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 12px;
+      }
+
+
+      a:hover {
+        background-color: #C5F82A;
+        color: #333
+      }
+
+    }
+
+    @media only screen and (max-width: 768px) {
+
+      .box {
+        background-color: #1F1F1F;
+        padding: 25px;
+        width: 40%;
+        margin: auto;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        line-height: 1.2em;
+      }
+
+      .loc {
+        color: #C5F82A;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        line-height: 1.5em;
+      }
+
+      .loc1 {
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        line-height: 1.5em;
+      }
+
+      a {
+        background-color: #333;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 10px 50px;
+        text-align: center;
+        border: 0px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 12px;
+      }
+
+
+      a:hover {
+        background-color: #C5F82A;
+        color: #333
+      }
+
+    }
+
+    @media only screen and (max-width: 500px) {
+
+      .box {
+        background-color: #1F1F1F;
+        padding: 25px;
+        width: 60%;
+        margin: auto;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        line-height: 1.2em;
+      }
+
+      .loc {
+        color: #C5F82A;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        line-height: 1.5em;
+      }
+
+      .loc1 {
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        line-height: 1.5em;
+      }
+
+      a {
+        background-color: #333;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 10px 50px;
+        text-align: center;
+        border: 0px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 12px;
+      }
+
+
+      a:hover {
+        background-color: #C5F82A;
+        color: #333
+      }
+
+    }
+
+
+
+    @media only screen and (max-width: 375px) and (min-width: 20px) {
+      .box {
+        background-color: #1F1F1F;
+        padding: 25px;
+        width: 90%;
+        /* margin: auto; */
+        border-radius: 8px;
+        /* display: flex;
+      flex-direction: column; */
+      }
+
+      body {
+        background-color: #141414;
+        font-family: "Inter", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      a {
+        background-color: #333;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 15px 20px;
+        text-align: center;
+        border: 0px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <img src="../social-links-profile-main/assets/images/avatar-jessica.jpeg" alt="profile">
+    <h1>
+      Jessica Randall
+    </h1>
+    <p class="loc">London, United Kingdom</p>
+    <p class="loc1">"Front-end developer and avid reader."</p>
+    <a href="https://github.com/" target="_blank">GitHub</a>
+    <a href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor</a>
+    <a href="https://in.linkedin.com/" target="_blank">Linkedin</a>
+    <a href="https://twitter.com/?lang=en" target="_blank">Twitter</a>
+    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+  </div>
+
+</body>
+
+</html>
